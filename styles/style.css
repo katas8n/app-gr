@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  background: url(../assets/images/583938-digital-art.png);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background: rgba(139, 139, 139, 0.486);
+  padding: 25px 0;
+  width: 100%;
+}
+
+.header__list-item {
+  padding-left: 100px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+}
+
+.header__list-item:nth-child(4) {
+  color: aqua;
+}
+
+.header__list-item:last-child {
+  padding-right: 100px;
+}
